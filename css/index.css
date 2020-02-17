@@ -114,6 +114,12 @@ nav a:hover{
 	padding: 0;
 }
 
+/*mobile nav menu sytling*/
+
+.logo @media screen and (max-width: 500px){
+
+}
+
 
 /*styling of hero section*/
 
@@ -320,4 +326,27 @@ ul li{
 	margin: 120px 0 20px 0;
 }
 
+
+/*Adding tablet*/
+
+@media (max-width: 800px){
+
+    .hero-img img{
+        display: none;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+}
+
+/*mobile*/
+
+@media (max-width: 500px){
+    body{
+        background-color: yellow;
+    }
+}
 
