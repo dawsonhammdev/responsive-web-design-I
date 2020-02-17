@@ -348,6 +348,27 @@ ul li{
         display:block;
     }
 
+    .boxes div{
+        width: 300px;
+        height: 350px;
+    }
+
+    .bottom{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-bottom h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .text-bottom{
+        text-align: center;
+    }
+
 }
 
 /*mobile*/
@@ -380,5 +401,15 @@ ul li{
         font-size: 60px;
         line-height: 80%;
     }
+}
+
+.boxes div{
+    width: 45%;
+    height: 60%;
+}
+
+.boxes button{
+    font-size:15px;
+    padding: 5px 10px;
 }
 
