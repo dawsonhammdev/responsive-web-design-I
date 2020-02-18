@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;'Bangers', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -350,8 +350,8 @@ ul li{
     }
 
     .boxes div{
-        width: 270px;
-        height: 390px;
+        width: 305px;
+        height: 360px;
     }
 
     .bottom{
